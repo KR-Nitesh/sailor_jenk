@@ -14,7 +14,7 @@ pipeline {
     stages{
         stage('checkout') {
             steps {
-                git(url: 'https://github.com/techsriman/sailoraws.git', credentialsId: 'githubtechsriman')
+                git(url: 'https://github.com/KR-Nitesh/sailoraws.git', credentialsId: 'githubKr-Nitesh')
             }            
         }
         stage('build') {
